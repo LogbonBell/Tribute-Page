@@ -1,0 +1,144 @@
+#title {
+  text-align:center;
+  font-family:Segoe UI;
+  background-color:#eeee;
+  height:320%;
+  margin-top:35px;
+  line-height:200px;
+}
+
+
+.first-text {
+  font-size:40px;
+  line-height:50px;
+  padding-top:50px;
+  font-color:#eeee;
+
+}
+.second-text {
+  display:block;
+  font-size:15px;
+  font-color:#eeee;
+}
+
+#img-div {
+  background-color:white;
+  margin-right:50px;
+  margin-left:50px;
+  margin-top:-30px;
+  max-height:600px;
+}
+
+#image {
+  height:auto;
+  width:900px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:100%;
+
+}
+
+#img-caption {
+  font-family:Segoe UI;
+  font-size:16px;
+  margin-top:-80px;
+}
+
+#tribute-info {
+  font-family:Segoe UI;
+  font-size:18px;
+  font-color:#eeee;
+  margin-top:-2.0rem;
+  }
+
+ul {
+  margin-top:-80px;
+}
+li {
+    font-family:Segoe UI;
+    font-size:13px;
+    word-break:break-word;
+    width:600px;
+    line-height:20px;
+    text-align:left;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top:30px;
+    word-spacing:2px;
+  }
+
+  .quote {
+    font-family:Segoe UI;
+    word-break:break-word;
+    width:550px;
+    line-height:25px;
+    font-size:16px;
+    text-align:left;
+    margin-left: 320px;
+    margin-right: auto;  
+    margin-top:40px;
+  }
+
+  #extra-info {
+    font-family:Segoe UI;
+    font-size:20px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top:-50px;
+
+  }
+
+  #tribute-link {
+    color:#477ca7;
+  }
+
+  /* Styles for smaller screens */
+@media (max-width: 1000px) {
+  /* Adjust the font size and line height for smaller screens */
+#title {
+  height:auto;
+
+}
+  .first-text {
+    font-size: auto;
+    line-height: auto;
+  }
+  
+  .second-text {
+    font-size: auto;
+  }
+  
+  /* Reduce the margins for the image container */
+  #img-div {
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+  
+  /* Adjust the width of the image */
+  #image {
+    width: auto;
+  }
+  
+  /* Adjust the font size and line height for the timeline */
+  ul li {
+    font-size: auto;
+    line-height: auto;
+    width: auto;
+  }
+  
+  /* Adjust the margin for the quote */
+  .quote {
+    margin-left: auto;
+    width: auto;
+  }
+
+  #img-caption {
+    line-height:;
+    font-size:11px;
+    
+  }
+}
+
+
